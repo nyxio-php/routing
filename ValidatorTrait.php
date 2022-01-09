@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Nyx\Routing;
+namespace Nyxio\Routing;
 
-use Nyx\Validation\Handler\Validator;
+use Nyxio\Validation\Handler\Validator;
 
 trait ValidatorTrait
 {

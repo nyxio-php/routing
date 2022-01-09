@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Nyx\Routing;
+namespace Nyxio\Routing;
 
-use Nyx\Contract\Routing\GroupCollectionInterface;
+use Nyxio\Contract\Routing\GroupCollectionInterface;
 
 class GroupCollection implements GroupCollectionInterface
 {

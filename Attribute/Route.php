@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Nyx\Routing\Attribute;
+namespace Nyxio\Routing\Attribute;
 
-use Nyx\Contract\Http\Method;
-use Nyx\Routing\ValidatorTrait;
+use Nyxio\Contract\Http\Method;
+use Nyxio\Routing\ValidatorTrait;
 
-use function Nyx\Helper\Url\normalizeUri;
+use function Nyxio\Helper\Url\normalizeUri;
 
 #[\Attribute(\Attribute::TARGET_CLASS)]
 class Route

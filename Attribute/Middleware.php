@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Nyx\Routing\Attribute;
+namespace Nyxio\Routing\Attribute;
 
 #[\Attribute(\Attribute::IS_REPEATABLE | \Attribute::TARGET_CLASS)]
 class Middleware

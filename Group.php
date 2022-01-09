@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Nyx\Routing;
+namespace Nyxio\Routing;
 
-use function Nyx\Helper\Url\normalizeUri;
+use function Nyxio\Helper\Url\normalizeUri;
 
 class Group
 {

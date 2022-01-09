@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Nyx\Routing;
+namespace Nyxio\Routing;
 
-use Nyx\Contract\Routing\UriMatcherInterface;
-use Nyx\Contract\Validation\Handler\RulesCheckerInterface;
-use Nyx\Routing\Attribute\Route;
-use Nyx\Validation\Handler\Validator;
+use Nyxio\Contract\Routing\UriMatcherInterface;
+use Nyxio\Contract\Validation\Handler\RulesCheckerInterface;
+use Nyxio\Routing\Attribute\Route;
+use Nyxio\Validation\Handler\Validator;
 use Psr\Http\Message\ServerRequestInterface;
 
-use function Nyx\Helper\Text\parseFromString;
+use function Nyxio\Helper\Text\parseFromString;
 
 class UriMatcher implements UriMatcherInterface
 {
